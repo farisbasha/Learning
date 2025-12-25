@@ -13,8 +13,8 @@
 | A: JavaScript | 001-010 | ✅✅✅✅✅✅✅✅✅✅ 10/10 |
 | B: TypeScript | 011-018 | ✅✅✅✅✅✅✅✅ 8/8 |
 | C: Node Runtime | 019-026 | ✅✅✅✅✅✅✅✅ 8/8 |
-| D: Async | 027-038 | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 0/12 |
-| E: Modules | 039-046 | ⬜⬜⬜⬜⬜⬜⬜⬜ 0/8 |
+| D: Async | 027-038 | ✅✅✅✅✅✅✅✅✅✅✅✅ 12/12 |
+| E: Modules | 039-046 | 🟩🟩🟩🟩🟩🟩🟩🟩 0/8 |
 | F: Core APIs | 047-062 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/16 |
 | G: Express | 063-078 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/16 |
 | H: Database | 079-088 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/10 |
@@ -24,7 +24,7 @@
 | L: NestJS | 115-126 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/12 |
 | M: Production | 127-135 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/9 |
 
-**Total: 26/135 phases completed (19%)**
+**Total: 38/135 phases completed (28%)**
 
 ---
 
@@ -73,18 +73,18 @@
 
 ### Part D: Async Programming (027-038)
 
-- [ ] **027** — Callbacks (Legacy)
-- [ ] **028** — Error-First Callbacks
-- [ ] **029** — Callback Hell
-- [ ] **030** — Event Emitters
-- [ ] **031** — Promises Introduction
-- [ ] **032** — Consuming Promises
-- [ ] **033** — Promise Chaining
-- [ ] **034** — Promise Combinators
-- [ ] **035** — Converting Callbacks to Promises
-- [ ] **036** — Async/Await
-- [ ] **037** — Advanced Async Patterns
-- [ ] **038** — Error Handling in Async
+- [x] **027** — Callbacks (Legacy)
+- [x] **028** — Error-First Callbacks
+- [x] **029** — Callback Hell
+- [x] **030** — Event Emitters
+- [x] **031** — Promises Introduction
+- [x] **032** — Consuming Promises
+- [x] **033** — Promise Chaining
+- [x] **034** — Promise Combinators
+- [x] **035** — Converting Callbacks to Promises
+- [x] **036** — Async/Await
+- [x] **037** — Advanced Async Patterns
+- [x] **038** — Error Handling in Async
 
 ---
 
