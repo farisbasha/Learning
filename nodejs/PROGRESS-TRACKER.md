@@ -15,13 +15,13 @@
 | F: Core APIs | 047-062 | ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ 16/16 | ✅ Studied |
 | G: Express | 063-085 | ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ 23/23 | ✅ Studied |
 | H: Database | 086-104+ | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/28 | ⬜ Not Started |
-| I: Auth | 105-120 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/16 | ⬜ Not Started |
+| I: Auth | 105-120 | ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ 16/16 | ✅ Studied |
 | J: API Dev | 121-129 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/9 | ⬜ Not Started |
 | K: Testing | 130-139 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/10 | ⬜ Not Started |
 | L: NestJS | 140-152 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/13 | ⬜ Not Started |
 | M: Production | 153-162 | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0/10 | ⬜ Not Started |
 
-**Studied: 85/162 phases (52%)**
+**Studied: 101/162 phases (62%)**
 
 ---
 
@@ -37,7 +37,7 @@
 ├── Part-F-Core-NodeJS-APIs/            ✅ Complete
 ├── Part-G-ExpressJS/                   ✅ Complete
 ├── Part-H-Database-ORM/                ⬜ Not Started
-├── Part-I-Auth-Security/               ⬜ Not Started
+├── Part-I-Auth-Security/               ✅ Complete
 ├── Part-J-API-Development/             ⬜ Not Started
 ├── Part-K-Testing/                     ⬜ Not Started
 ├── Part-L-NestJS/                      ⬜ Not Started
@@ -205,22 +205,22 @@
 
 ### Part I: Authentication & Security (105-120)
 
-- [ ] **105** — HTTP Auth Basics
-- [ ] **106** — Sessions & Cookies
-- [ ] **107** — Passport.js Local (Legacy)
-- [ ] **108** — Passport Strategies
-- [ ] **109** — JWT Concept
-- [ ] **110** — JWT Implementation
-- [ ] **111** — Password Hashing Concepts
-- [ ] **112** — bcrypt & Argon2
-- [ ] **113** — RBAC Authorization
-- [ ] **114** — OAuth Basics
-- [ ] **115** — Refresh Token Strategy
-- [ ] **116** — API Keys
-- [ ] **117** — Security Headers
-- [ ] **118** — Rate Limiting
-- [ ] **119** — CSRF Protection
-- [ ] **120** — Multi-tenancy Basics
+- [x] **105** — HTTP Auth Basics
+- [x] **106** — Sessions & Cookies
+- [x] **107** — Passport.js Local (Legacy)
+- [x] **108** — Passport Strategies
+- [x] **109** — JWT Concept
+- [x] **110** — JWT Implementation
+- [x] **111** — Password Hashing Concepts
+- [x] **112** — bcrypt & Argon2
+- [x] **113** — RBAC Authorization
+- [x] **114** — OAuth Basics
+- [x] **115** — Refresh Token Strategy
+- [x] **116** — API Keys
+- [x] **117** — Security Headers
+- [x] **118** — Rate Limiting
+- [x] **119** — CSRF Protection
+- [x] **120** — Multi-tenancy Basics
 
 ---
 
@@ -304,9 +304,9 @@
 > Part H — From raw SQL to modern ORMs
 > **0/28 phases**
 
-### Milestone 5: Auth & API
+### Milestone 5: Auth & API ✅ COMPLETE
 > Parts I, J — Security and API development
-> **0/25 phases**
+> **16/25 phases completed (Part I done)**
 
 ### Milestone 6: Testing
 > Part K — Test-driven development
