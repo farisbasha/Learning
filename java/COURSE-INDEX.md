@@ -49,7 +49,8 @@ Tick steps off as you finish them.
 
 ---
 
-## Part 03 · Generics — *the type system* ⬜
+## Part 03 · Generics — *the type system*
+📁 `Part-03-Generics/` — **notes written**
 > Coming from TypeScript this feels familiar until **erasure**, at which point it will not.
 
 - [ ] **3.1** The problem generics solve — pre-Java-5 code, `ClassCastException`
@@ -58,14 +59,16 @@ Tick steps off as you finish them.
 - [ ] **3.4** Wildcards and variance — `? extends`, `? super`, PECS
 - [ ] **3.5** The edges — generic arrays, `Class<T>` tokens, super type tokens
 
-## Part 04 · Exceptions and failure — *failure* ⬜
+## Part 04 · Exceptions and failure — *failure*
+📁 `Part-04-Exceptions-Failure/` — **notes written**
 
 - [ ] **4.1** The hierarchy — `Throwable`, `Error`, `Exception`, `RuntimeException`
 - [ ] **4.2** Checked versus unchecked — the argument, and where it landed
 - [ ] **4.3** The mechanics — try/catch/finally, try-with-resources, suppressed exceptions
 - [ ] **4.4** Designing with failure — what to throw, what to wrap, what to let fly
 
-## Part 05 · Collections and data structures — *the daily library* ⬜
+## Part 05 · Collections and data structures — *the daily library*
+📁 `Part-05-Collections/` — **notes written**
 
 - [ ] **5.1** The map of the framework
 - [ ] **5.2** Lists — `ArrayList` vs `LinkedList` and why one almost always wins
@@ -76,7 +79,8 @@ Tick steps off as you finish them.
 - [ ] **5.7** Immutable, unmodifiable and sequenced collections
 - [ ] **5.8** Choosing by cost — Big-O in practice
 
-## Part 06 · Functional Java — *the 2014 revolution* ⬜
+## Part 06 · Functional Java — *the 2014 revolution*
+📁 `Part-06-Functional-Java/` — **notes written**
 
 - [ ] **6.1** Lambdas — what they compile to (not anonymous classes)
 - [ ] **6.2** Method references — the four forms
@@ -87,7 +91,8 @@ Tick steps off as you finish them.
 - [ ] **6.7** `Optional` — what it is for, and the ways people misuse it
 - [ ] **6.8** Parallel streams, and **gatherers** `Java 24`
 
-## Part 07 · Pattern matching and modern style — *the language as it is now* ⬜
+## Part 07 · Pattern matching and modern style — *the language as it is now*
+📁 `Part-07-Pattern-Matching/` — **notes written**
 
 - [ ] **7.1** Type patterns — `instanceof` with a binding
 - [ ] **7.2** Pattern matching for `switch` `Java 21`
@@ -95,7 +100,8 @@ Tick steps off as you finish them.
 - [ ] **7.4** The combined idiom — sealed + records + switch = the modern style
 - [ ] **7.5** In flight, and dead — string templates were removed; they do not exist
 
-## Part 08 · The JVM: memory and execution — *the machine* ⬜
+## Part 08 · The JVM: memory and execution — *the machine*
+📁 `Part-08-The-JVM/` — **notes written**
 
 - [ ] **8.1** From source to bytecode
 - [ ] **8.2** Class loading
@@ -108,7 +114,8 @@ Tick steps off as you finish them.
 - [ ] **8.9** Observing a running JVM — JFR, `jcmd`, heap dumps
 - [ ] **8.10** Startup, packaging and AOT
 
-## Part 09 · Concurrency — *the hard part* ⬜
+## Part 09 · Concurrency — *the hard part*
+📁 `Part-09-Concurrency/` — **notes written** (start with its `README.md`)
 > The only topic that can quietly ruin a program you believed was correct.
 
 - [ ] **9.1** Threads
@@ -124,7 +131,8 @@ Tick steps off as you finish them.
 - [ ] **9.11** **Virtual threads** `Java 21`
 - [ ] **9.12** Structured concurrency, scoped values, and proving it works
 
-## Part 10 · I/O, files, networking — *the outside world* ⬜
+## Part 10 · I/O, files, networking — *the outside world*
+📁 `Part-10-IO-Files-Networking/` — **notes written**
 
 - [ ] **10.1** Streams and readers — the byte/char split
 - [ ] **10.2** Character encoding — UTF-8 is the default since 18
@@ -133,7 +141,8 @@ Tick steps off as you finish them.
 - [ ] **10.5** Serialization — and why you should not use it
 - [ ] **10.6** Networking — sockets, the modern `HttpClient`
 
-## Part 11 · The platform library — *the rest of the standard library* ⬜
+## Part 11 · The platform library — *the rest of the standard library*
+📁 `Part-11-Platform-Library/` — **notes written**
 
 - [ ] **11.1** Dates and times — `java.time`
 - [ ] **11.2** Numbers and maths — `BigDecimal` for money
@@ -146,7 +155,8 @@ Tick steps off as you finish them.
 - [ ] **11.9** Foreign functions and memory — the JNI replacement
 - [ ] **11.10** The module system
 
-## Part 12 · Tools you cannot avoid — *deliberately thin* ⬜
+## Part 12 · Tools you cannot avoid — *deliberately thin*
+📁 `Part-12-Tools/` — **notes written**
 
 - [ ] **12.1** The JDK's own tools — `javap`, `jcmd`, `jshell`, `jlink`
 - [ ] **12.2** Build tools, at the minimum — Maven, Gradle
@@ -154,7 +164,8 @@ Tick steps off as you finish them.
 - [ ] **12.4** Debugging
 - [ ] **12.5** Code quality and conventions
 
-## Part 13 · Reading real Java — *consolidation* ⬜
+## Part 13 · Reading real Java — *consolidation*
+📁 `Part-13-Consolidation/` — **notes written**
 
 - [ ] **13.1** Read the JDK's own source
 - [ ] **13.2** The accumulated wisdom — *Effective Java*, and what it gets right

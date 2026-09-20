@@ -120,6 +120,58 @@ Use it constantly while reading these notes.
 | 00 · Orientation and history | ✅ Notes written |
 | 01 · The language, procedurally | ✅ Notes written |
 | 02 · Objects, properly | ✅ Notes written |
-| 03 – 13 | ⬜ Roadmap only — see `COURSE-INDEX.md` |
+| 03 · Generics | ✅ Notes written |
+| 04 · Exceptions and failure | ✅ Notes written |
+| 05 · Collections and data structures | ✅ Notes written |
+| 06 · Functional Java | ✅ Notes written |
+| 07 · Pattern matching and modern style | ✅ Notes written |
+| 08 · The JVM: memory and execution | ✅ Notes written |
+| 09 · Concurrency | ✅ Notes written — **read its `README.md` first** |
+| 10 · I/O, files, networking | ✅ Notes written |
+| 11 · The platform library | ✅ Notes written |
+| 12 · Tools you cannot avoid | ✅ Notes written |
+| 13 · Reading real Java | ✅ Notes written |
+
+> ## ✅ All 14 parts · 97 steps complete.
 
 Start at [`Part-00-Orientation/0.1-what-the-words-mean.md`](Part-00-Orientation/0.1-what-the-words-mean.md).
+
+---
+
+## ⭐ Three things about the order
+
+From the roadmap's own closing notes — worth reading before you start.
+
+**1. Don't skip Part 03.** Erasure looks like trivia and it is not. It explains a dozen
+rules that otherwise feel arbitrary, and it's the reason half the questions you'll ask
+about generics have the answer *"because the type isn't there any more."*
+
+**2. Don't start Part 09 early.** Concurrency is the one topic where **partial knowledge is
+worse than none**, because it produces code that looks right and passes tests. It needs
+Part 08 — you cannot reason about visibility without knowing there is a shared heap and
+per-thread stacks.
+
+**3. Don't treat 0.3 as optional.** Most Java material online is a decade old. The single
+highest-leverage skill early on is telling whether what you're reading describes the
+language **as it is now**.
+
+### What to expect from the shape of it
+
+| Parts | |
+|---|---|
+| **1–2** | Slow and familiar — you know these ideas, you're learning Java's spelling of them |
+| **3–7** | Where Java stops being "a language like the others" and starts having a character |
+| ⭐ **8–9** | **The ones almost nobody does, and the ones that change what you can do** |
+| **10–13** | **Reference more than sequence.** Take them when a project demands them |
+
+---
+
+## A note on verification
+
+Claims in these notes were checked by running them on your JDK rather than asserted from
+memory. Where a measurement contradicted what I'd written, the notes carry the **measured**
+result — including several cases where the textbook answer turned out to be wrong on a
+modern JDK (see 11.3's ReDoS section and 11.4's Turkish-locale table).
+
+Two areas could **not** be verified on your Java 17 and are marked as such: **virtual
+threads** (9.11) and **structured concurrency** (9.12), which need Java 21+.
