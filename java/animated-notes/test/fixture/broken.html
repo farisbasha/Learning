@@ -1,0 +1,20 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="../../lib/an.css"></head>
+<body><div id="root"></div>
+<script src="../../lib/react.js"></script>
+<script src="../../lib/react-dom.js"></script>
+<script src="../../lib/an-engine.js"></script>
+<script>
+// Test fixture: scene "Bad" throws for t < 5 only; one notes block is malformed.
+var h = React.createElement;
+function Good(p) { return h('div', { id: 'good-scene' }, 'good ' + p.t.toFixed(1)); }
+function Bad(p) { if (p.t < 5) throw new Error('boom'); return h('div', { id: 'bad-recovered' }, 'recovered'); }
+AN.registerTopic({
+  id: 'fx', title: 'Fixture', kicker: 'test', chapters: ['A', 'B'],
+  scenes: [{ name: 'Bad', dur: 10, ch: 0, title: '', C: Bad }, { name: 'Good', dur: 10, ch: 1, title: '', C: Good }],
+  captions: {},
+  notes: [{ ch: 0, blocks: [{ p: 'fine paragraph' }, { table: { head: ['x'] } }] }],
+  quiz: [{ q: 'q?', options: ['a', 'b'], answer: 0, why: 'w' }],
+});
+AN.mountTopic('fx');
+</script></body></html>

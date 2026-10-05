@@ -1,0 +1,18 @@
+{
+  "name": "animated-notes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "shoot": "node tools/shoot.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "esbuild": "^0.28.2",
+    "playwright-core": "^1.63.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
